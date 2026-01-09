@@ -24,7 +24,13 @@ The .env file does have PostgreSQL configuration! Look at the bottom section lab
 - .env
 
 ```bash
+
+docker compose up -d
+
+# or, if docker-compose is installed
 docker-compose up -d
+
+
 ```
 
 To complete the setup, you still have to create an initial user, so that you can access your installation.
@@ -77,4 +83,4 @@ LD_DB_HOST=192.168.1.10
 LD_DB_PORT=5432
 ```
 
-Then run `docker-compose up -d` and it will connect to PostgreSQL database!
+Then run `docker compose up -d` or `docker-compose up -d` and it will connect to PostgreSQL database!
