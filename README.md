@@ -84,3 +84,10 @@ LD_DB_PORT=5432
 ```
 
 Then run `docker compose up -d` or `docker-compose up -d` and it will connect to PostgreSQL database!
+
+## Access linkding UI
+
+http://<ip_address>:9090/
+
+- user: admin # we configured this in .env file
+- password: <your_password> # we configured this in .env file
